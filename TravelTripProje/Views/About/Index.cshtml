@@ -1,0 +1,59 @@
+﻿@using TravelTripProje.Models.Sınıflar;
+@model List<Hakkımızda>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+
+<div class="content">
+    <div class="wrap">
+        <div class="about">
+            <h3>Hakkımızda</h3>
+            @foreach (var x in Model)
+            {
+                <img src="@x.FotoUrl" alt="" />
+                <p>@x.Aciklama</p>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+@*1. @using TravelTripProje.Models.Sınıflar;
+    Bu satır, TravelTripProje.Models.Sınıflar namespace'ini kullanmak için eklenmiş. Bu, Hakkımızda sınıfının burada kullanılabilmesi için gerekli bir adımdır. Yani, View'de Hakkımızda sınıfına ait verilere erişebilmek için bu using direktifi gereklidir.
+
+    2. @model List<Hakkımızda>
+    Bu satırda, View dosyasının modelinin ne olduğunu belirtiyoruz. Burada List<Hakkımızda>
+        türünde bir liste kullanılmış. Bu, View'nin, her biri Hakkımızda sınıfın*@<!--dan bir nesne içeren bir listeyi beklediği anlamına gelir. Bu liste, Controller'dan View'ye gönderilecek olan veridir.-->
+@*8. @foreach (var x in Model) { ... }
+Bu foreach döngüsü, Controller'dan gelen List<Hakkımızda>
+    model verilerini döngüyle işleyerek her bir öğe için belirli HTML içeriği üretir.
+
+    var x in Model kısmı, modeldeki her bir Hakkımızda öğesini x olarak adlandırır.
+
+    @x.FotoUrl ile Hakkımızda sınıfındaki FotoUrl özelliğine erişilir ve bu URL, bir <img> etiketi içinde kullanılarak görüntü gösterilir.
+
+    @x.Aciklama ile ise Hakkımızda sınıfındaki Aciklama özelliği görüntülenir.
+
+    9. <img src="@x.FotoUrl" alt="" />
+    Her bir öğe için, FotoUrl özelliği kullanılarak bir resim kaynağı belirlenir ve bu resim görüntülenir. alt="" kısmı, resim yüklenemezse veya görseller devre dışı bırakılmışsa açıklayıcı metin sunar, fakat burada boş bırakılmış.
+
+    10. <p>@x.Aciklama</p>
+    Bu satırda, Aciklama özelliği kullanılarak her bir Hakkımızda öğesinin açıklama kısmı bir paragraf olarak ekrana yazdırılır.
+
+    Özet:
+    Bu kod, Hakkımızda sınıfına ait verileri listeleyerek her bir öğe için resim (FotoUrl) ve açıklama (Aciklama) bilgilerini görüntüler. Yani, Controller'dan gönderilen List<Hakkımızda> verileri üzerinde döngü kurularak her bir öğe için bir resim ve açıklama ekrana yerleştirilir. Bu sayfa, kullanıcıya "Hakkımızda" bilgilerini sunmak için kullanılan bir View'dir.*@
+
+
+
+
+
+
