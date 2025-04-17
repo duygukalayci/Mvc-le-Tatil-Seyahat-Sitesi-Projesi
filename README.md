@@ -28,10 +28,12 @@ Bu proje, kişisel gezi ve blog sitesi olarak tasarlanmıştır. Kişi, bu site 
 ⚡ JavaScript: Müşteri tarafında dinamik işlemler gerçekleştirilmiştir.
 📐 Bootstrap: Duyarlı tasarım ve modern görünüm için tercih edilmiştir.
 
+Bu proje Murat Yücedağ'ın Youtube'de ücretsiz olarak yayımladığı TravelTrip kursudur.
 
 
 
-![Uploading Ekran Görüntüsü (1091).png…]()
+
+
 
 
 
