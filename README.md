@@ -20,13 +20,21 @@ Bu proje, kişisel gezi ve blog sitesi olarak tasarlanmıştır. Kişi, bu site 
 🛠️ .NET Framework: Proje, bu .NET Framework'ü kullanır.
 
 🏗️ ASP.NET MVC: Proje, Model-View-Controller (MVC) desenini kullanır.
+
 🗂️ Entity Framework: Veri erişimi ve ORM (Object-Relational Mapping) için kullanılmıştır.
+
 📜 Code-First Yaklaşımı: Veri tabanı şeması, C# sınıflarına dayalı olarak oluşturulmuştur.
+
 🔑 Authorization: Admin paneli için güvenli giriş ve yetkilendirme sağlanmıştır.
+
 ✨ Razor: Dinamik ve şık görünümler, Razor sözdizimi ile oluşturulmuştur.
+
 🎨 HTML/CSS: Web sayfalarının yapısı ve stili için kullanılmıştır.
+
 ⚡ JavaScript: Müşteri tarafında dinamik işlemler gerçekleştirilmiştir.
+
 📐 Bootstrap: Duyarlı tasarım ve modern görünüm için tercih edilmiştir.
+
 
 Bu proje Murat Yücedağ'ın Youtube'de ücretsiz olarak yayımladığı TravelTrip kursudur.
 
